@@ -17,6 +17,6 @@ if(hours > 40){
 }
 
 let weeks = 1000000 / sum;
-console.log(Math.round(weeks));
+console.log(Math.ceil(weeks));
 
 
